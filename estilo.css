@@ -90,11 +90,6 @@ div#contato {
     margin-left: 15px;
 }
 
-.container-fluid {
-    display: block;
-    margin: auto;
-}
-
 .nav-link:hover {
     color: #FF0284;
 }
@@ -115,7 +110,7 @@ div#contato {
 .opacidade {
     padding: 20px;
     width: 100%;
-    height: 90%;
+    height: 95%;
     background-color: rgba(0, 0, 0, 0.514);
     position: absolute;
     display: flex;
@@ -128,7 +123,7 @@ div#contato {
 #textBanner {
     color: #ffffff;
     font-family: 'Barlow', sans-serif;
-    width: 50%;
+    width: 60%;
 }
 
 h1#textBanner {
@@ -150,7 +145,7 @@ p#textBanner {
 
 img#banner {
     width: 100%;
-    height: 90%;
+    height: 95%;
 }
 
 h1#textBanner:hover {
@@ -184,8 +179,8 @@ h1#textBanner:hover {
 
 #bannerImg:hover {
     cursor: pointer;
-    opacity: 0.95;
     transition: 0.5s;
+    transform: scale(1.01);
 }
 
 h5#textNoticias {
@@ -221,6 +216,49 @@ h5#textNoticias:hover {
     padding: 50px;
 }
 
+#linhaNoticia4 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://tntsports.com.br/__export/1663260378725/sites/esporteinterativo/img/2022/09/14/entrevista_completa_neymar_xsem_entregax_-mp4_1663194098573480.jpg_574206838.jpg');
+}
+
+#linhaNoticia5 {
+    width: 100%;
+    background-image: none;
+}
+
+#video:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+#video {
+    margin-top: 10px;
+}
+
+#video2 {
+    margin-bottom: 40px;
+}
+
+iframe#video {
+    width: 400px;
+    height: 350px;
+}
+
+#background {
+    padding: 40px;
+    background-color: #0e0e0ed2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#alinha {
+    display: flex;
+    flex-direction: row;
+}
+
 #imgNoticia {
     width: 100%;
     margin-top: 20px;
@@ -229,8 +267,25 @@ h5#textNoticias:hover {
 
 #imgNoticia:hover {
     cursor: pointer;
-    opacity: 0.97;
     transition: 0.5s;
+    transform: scale(1.01);
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+#colunaVideo {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+#titleVideo {
+    display: flex;
+    flex-direction: column;
 }
 
 #textNoticias2 {
@@ -238,14 +293,12 @@ h5#textNoticias:hover {
 }
 
 h2#textNoticias2 {
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
 h2#textNoticias2:hover {
-    border-color: #FF0284;
+    color: #FF0284;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -275,6 +328,53 @@ h6#textNoticias2 {
     font-weight: bold;
 }
 
+h6#textVideo2 {
+    text-transform: uppercase;
+    color: #FF0284;
+    font-family: 'Barlow', sans-serif;
+}
+
+h5#textVideo2 {
+    color: #b6b6b6;
+    font-family: 'Barlow', sans-serif;
+}
+
+h2#textVideo2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+}
+
+h2#textVideo2:hover {
+    color: #FF0284;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+p#textVideo2 {
+    color: #b1b1b1;
+}
+
+span#textNoticias4 {
+    text-transform: uppercase;
+    color: #e6e6e6;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7rem;
+}
+
+h3#textNoticias4 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font: 45px/37px 'Barlow', sans-serif;
+}
+
+#textVideo {
+    border-left: 20px solid #FF0284;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
 p#textNoticias2 {
     font-size: 0.9rem;
     text-transform: none;
@@ -283,5 +383,13 @@ p#textNoticias2 {
 .coluna3 {
     margin-top: 20px;
     height: 100%;
-    padding: 10px;
+    padding: 15px;
+}
+
+.coluna3:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+    transform: scale(1.02);
+    -webkit-box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.5);
 }
