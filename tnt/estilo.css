@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+}
+
+.navbar {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    width: 10%;
+    margin-left: 20px;
+}
+
+#logo {
+    width: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: rgb(34, 34, 34);
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    background-color: #FF0284;
+}
+
+ul.navbar-nav {
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+#assine {
+    font-size: 0.9rem;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #FF0284;
+    border-radius: 90px;
+    color: #ffffff;
+}
+
+#assine:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+i {
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+#icontato {
+    margin: 0px;
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+div#contato {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #FF0284;
+}
+
+.bannerPrincipal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 70px;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+}
+
+.opacidade {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#textBanner {
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    width: 60%;
+}
+
+h1#textBanner {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+
+h6#textBanner {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p#textBanner {
+    font-size: 0.9rem;
+}
+
+img#banner {
+    width: 100%;
+    height: 100%;
+}
+
+h1#textBanner:hover {
+    border-bottom: 5px solid #FF0284;
+    border-top: 5px solid #FF0284;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#linhanoticia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -90px;
+    position: absolute;
+    z-index: 3;
+}
+
+#colNoticia {
+    margin: 5px;
+    width: 300px;
+    height: 160px;
+}
+
+#colNoticia3 {
+    padding-left: 0px;
+}
+
+#bannerImg {
+    width: 100%;
+    height: 100%;
+}
+
+#bannerImg:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.01);
+    -webkit-box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+h5#textNoticias {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+h5#textNoticias:hover {
+    border-color: #FF0284;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#linhaNoticia2 {
+    margin-top: 160px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#linhaNoticia3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px;
+}
+
+#linhaNoticia4 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://tntsports.com.br/__export/1663260378725/sites/esporteinterativo/img/2022/09/14/entrevista_completa_neymar_xsem_entregax_-mp4_1663194098573480.jpg_574206838.jpg');
+}
+
+#linhaNoticia5 {
+    width: 100%;
+    background-image: none;
+}
+
+#video:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+#video {
+    margin-top: 10px;
+}
+
+#video2 {
+    margin-bottom: 40px;
+}
+
+iframe#video {
+    width: 400px;
+    height: 350px;
+}
+
+#background {
+    padding: 40px;
+    background-color: #0e0e0ed2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#alinha {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgNoticia {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#imgNoticia3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 190px;
+}
+
+#imgNoticia3:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+#imgNoticia4 {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#imgNoticia:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+#colunaVideo {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+#titleVideo {
+    display: flex;
+    flex-direction: column;
+}
+
+#textNoticias2 {
+    text-transform: uppercase;
+}
+
+h2#textNoticias2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h2#textNoticias2:hover {
+    color: #FF0284;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h5#textNoticias2 {
+    text-transform: none;
+    color: #3a3a3a;
+}
+
+h5#textNoticias3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h5#textNoticias3:hover {
+    border-color: #FF0284;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h6#textNoticias2 {
+    color: #FF0284;
+    font-weight: bold;
+}
+
+h6#textVideo2 {
+    text-transform: uppercase;
+    color: #FF0284;
+    font-family: 'Barlow', sans-serif;
+}
+
+h5#textVideo2 {
+    color: #b6b6b6;
+    font-family: 'Barlow', sans-serif;
+}
+
+h2#textVideo2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+}
+
+h2#textVideo2:hover {
+    color: #FF0284;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+p#textVideo2 {
+    color: #b1b1b1;
+}
+
+span#textNoticias4 {
+    text-transform: uppercase;
+    color: #e6e6e6;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7rem;
+}
+
+span#textNoticias5 {
+    text-transform: uppercase;
+    color: #414141;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.7rem;
+}
+
+h3#textNoticias4 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font: 45px/37px 'Barlow', sans-serif;
+}
+
+h3#textNoticias5 {
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font: 45px/37px 'Barlow', sans-serif;
+}
+
+#textVideo {
+    border-left: 20px solid #FF0284;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+p#textNoticias2 {
+    font-size: 0.9rem;
+    text-transform: none;
+}
+
+.coluna3 {
+    margin-top: 20px;
+    height: 100%;
+    padding: 15px;
+}
+
+.coluna3:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+    transform: scale(1.02);
+    -webkit-box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.mainFooter {
+    padding: 30px;
+    background-color: #212530;
+}
+
+.subFooter {
+    padding: 40px;
+    background-color: #171921;
+    padding-bottom: 5px;
+}
+
+#footerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#icontatof {
+    color: #ffffff;
+    font-size: 1.9rem;
+    margin: 20px;
+}
+
+#icontatof:hover {
+    color: #FF0284;
+    transition: 0.4s;
+}
+
+#logoF {
+    width: 150px;
+}
+
+.contPlay {
+    background-color: #171921;
+    padding: 10px;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contPlay:hover {
+    background-color: #181a24;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.subFooterConteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+h5.textSubFooter {
+    color: #ffffff;
+    margin: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Barlow', sans-serif;
+    border-right: 1px solid #ffffff;
+    padding-right: 10px;
+}
+
+#ultH5 {
+    border-right: none;
+}
+
+#pSubFooter {
+    font-size: 0.9rem;
+    padding: 3.5px;
+    color: #5c5c5c;
+}
+
+.textSubFooter:hover {
+    color: #FF0284;
+    transition: 0.4s;
+    cursor: pointer;
+}
