@@ -172,6 +172,11 @@ h1#textBanner:hover {
     padding-left: 0px;
 }
 
+#colNoticia4 {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
 #bannerImg {
     width: 100%;
     height: 100%;
