@@ -6,7 +6,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #e6e6e6;
 }
 
@@ -66,7 +66,8 @@ body {
 }
 
 .dropdown-item {
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
 .diagonal {
@@ -125,22 +126,31 @@ body {
 }
 
 .menuY {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 #star2 {
     margin-bottom: -5px;
-    width: 70px;
+    width: 60px;
 }
 
 #menuY {
     margin-bottom: -10px;
     margin-top: -10px;
     list-style: none;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     text-transform: capitalize;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menuYli:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 a#menuY {
@@ -157,18 +167,24 @@ a#menuY {
     font-size: 0.8rem;
 }
 
+.text-center:hover {
+    background-color: #ad0839;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 #imgY {
-    width: 30px;
+    width: 20px;
 }
 
 .menuY2 {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h1.customize {
+h1.h1Y {
     font-size: 0.9rem;
     margin-bottom: -5px;
     font-weight: bold;
@@ -204,4 +220,9 @@ a#menuYlog {
     text-decoration: none;
     text-transform: capitalize;
     color: #0066cce0;
+}
+
+.menuM {
+    background-color: #f3f3f3;
+    padding: 5px;
 }
