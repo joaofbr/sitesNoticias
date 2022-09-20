@@ -21,7 +21,7 @@ body {
 }
 
 .navbar-brand {
-    width: 10%;
+    width: 15%;
     margin-left: 20px;
 }
 
@@ -31,7 +31,6 @@ body {
 
 .nav-item {
     margin: 10px;
-    margin-left: 15px;
 }
 
 .nav-link {
@@ -63,6 +62,7 @@ ul.navbar-nav {
     background-color: #FF0284;
     border-radius: 90px;
     color: #ffffff;
+    width: 150px;
 }
 
 #assine:hover {
@@ -77,7 +77,7 @@ i {
 #icontato {
     margin: 0px;
     font-size: 1.3rem;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 div#contato {

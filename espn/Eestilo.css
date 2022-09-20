@@ -6,7 +6,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     background-color: #e6e6e6;
 }
 
@@ -21,11 +21,6 @@ body {
     position: absolute;
     top: 4;
     left: 130;
-}
-
-.direita {
-    position: absolute;
-    right: -750;
 }
 
 .nav-link {
@@ -73,7 +68,7 @@ body {
 .diagonal {
     width: 140px;
     height: 54px;
-    background: #B40000;
+    background: #b40000;
     transform: skew(-25deg);
     position: absolute;
     left: -20;
@@ -99,30 +94,37 @@ body {
 .main {
     width: 100%;
     height: auto;
-    padding: 40px;
+    padding: 10px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
+    justify-content: center;
 }
 
 .esquerdaMain {
     width: 20%;
     height: 100%;
     padding: 10px;
-    background-color: #B40000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .meioMain {
-    width: 60%;
+    width: 45%;
     height: 100%;
     padding: 10px;
-    background-color: #24b400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .direitaMain {
-    width: 20%;
+    width: 25%;
     height: 100%;
     padding: 10px;
-    background-color: #000f99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menuY {
@@ -130,6 +132,17 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
+    width: 220px;
+}
+
+.menuDireita {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#menuDireita2 {
+    width: 300px;
 }
 
 #star2 {
@@ -161,7 +174,7 @@ a#menuY {
 
 .text-center {
     padding: 8px;
-    background-color: #E1084A;
+    background-color: #e1084a;
     border-radius: 50px;
     font-weight: bolder;
     font-size: 0.8rem;
@@ -182,6 +195,7 @@ a#menuY {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
+    width: 220px;
 }
 
 h1.h1Y {
@@ -222,7 +236,139 @@ a#menuYlog {
     color: #0066cce0;
 }
 
-.menuM {
+.conteudoMeio {
     background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.conteudoMeio:hover {
+    cursor: pointer;
+}
+
+#noticia {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#imgNoticia {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.legenda {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0px -0.5px 2px 1px rgba(184, 184, 184, 0.705);
+}
+
+#h1Legenda {
+    font-size: 1.1rem;
+    padding: 10px 10px 0px;
+}
+
+#h1Legenda:hover {
+    cursor: pointer;
+    color: #06c;
+    transition: 0.3s;
+}
+
+#pLegenda {
+    color: #858585;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+
+.logMeio {
+    width: 40%;
     padding: 5px;
+}
+
+div.logoNoticia {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+img#logoNoticia {
+    width: 40px;
+    height: 40px;
+}
+
+#h1LogoNoticia {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#h1LogoNoticia:hover {
+    color: #06c;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#pLogoNoticia {
+    font-size: 0.8rem;
+    margin-top: -10px;
+    color: #858585;
+}
+
+.legendaNoticia {
+    margin-left: 5px;
+}
+
+#videoNoticia {
+    width: 100%;
+    height: 300px;
+}
+
+.blocoNoticia {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.blocoNoticia:hover {
+    cursor: pointer;
+}
+
+#imgBlocoNoticia {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+}
+
+#pBloco {
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+#h1LegendaBloco {
+    font-size: 1rem;
+    padding: 10px 10px 0px;
+}
+
+.legendaBloco {
+    box-shadow: 4px 4px 10px -1px #979797;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tituloBlocoDireita {
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
+
+.textBlocoDireita {
+    margin-top: -5px;
+    font-size: 0.7rem;
 }
