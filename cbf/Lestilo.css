@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Poppins,sans-serif;
+}
+.navbar{
+    height: 100px;
+    background-color: #009B54;
+    box-shadow: 0px -0.5px 3px 2px rgba(94, 94, 94, 0.705);
+}
+.logo{
+    width: 75px;
+    position: absolute;
+    top: 0;
+    left: 40;
+}
+.navbar-brand{
+    width: 15%
+}
+.diagonal{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 15%;
+    top: 0;
+    transform: skew(-20deg);
+    left: -20;
+}
+
+.nav-link{
+    color: white;
+    text-transform: capitalize;
+}
+.dropdown-item{
+    text-transform: uppercase;
+}
+#tituloNav{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 130px;
+    font-size: 1.1rem;
+}
+#textNavLink{
+    margin-top: 13px;
+}
+.noticias{
+    margin-top: 120px;
+    padding: 50px;
+}
+.tituloNot{
+    text-transform: uppercase;
+    color: #003999;
+    font-weight: bolder;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 80%;
+}
+.col-sm-12{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+}
+.titulo{
+    margin-top: -10px;
+}
+.bloco{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+.h2Bloco{
+    font-size: 1rem; 
+    color: #003999;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.foco{
+    background-color: #003999;
+    border-radius: 3px;
+}
+.focoH2{
+    color: white;
+    font-weight: bold;
+}
+.bloco:hover{
+    cursor: pointer;
+}
+.tempo{
+    font-size: 0.8rem;
+}
+h4.titulo{
+    font-weight: bold;
+}
+#linha1{
+    margin-top: -0px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.titulo2{
+    font-size: 1.1rem;
+    margin-top: -15px;
+    font-weight: bold;
+}
+.sobre{
+    margin-top: 5px;
+    font-size: 1rem;
+}
